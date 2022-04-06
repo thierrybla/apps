@@ -151,31 +151,6 @@ questions:
                       schema:
                         type: string
                         default: "/"
-                    - variable: failureThreshold
-                      label: "Failure Threshold"
-                      description: "Failure Threshold"
-                      schema:
-                        type: int
-                    - variable: initialDelaySeconds
-                      label: "Initial Delay Seconds"
-                      description: "Initial Delay Seconds"
-                      schema:
-                        type: int
-                    - variable: periodSeconds
-                      label: "Period Seconds"
-                      description: "Period Seconds"
-                      schema:
-                        type: int
-                    - variable: successThreshold
-                      label: "Success Threshold"
-                      description: "Success Threshold"
-                      schema:
-                        type: int
-                     - variable: timeoutSeconds
-                      label: "Timeout Seconds"
-                      description: "Timeout Seconds"
-                      schema:
-                        type: int
         - variable: readiness
           label: "Readiness"
           description: "Readiness Probe"
@@ -210,31 +185,6 @@ questions:
                       schema:
                         type: string
                         default: "/"
-                    - variable: failureThreshold
-                      label: "Failure Threshold"
-                      description: "Failure Threshold"
-                      schema:
-                        type: int
-                    - variable: initialDelaySeconds
-                      label: "Initial Delay Seconds"
-                      description: "Initial Delay Seconds"
-                      schema:
-                        type: int
-                    - variable: periodSeconds
-                      label: "Period Seconds"
-                      description: "Period Seconds"
-                      schema:
-                        type: int
-                    - variable: successThreshold
-                      label: "Success Threshold"
-                      description: "Success Threshold"
-                      schema:
-                        type: int
-                     - variable: timeoutSeconds
-                      label: "Timeout Seconds"
-                      description: "Timeout Seconds"
-                      schema:
-                        type: int
         - variable: startup
           label: "Startup"
           description: "Startup Probe"
@@ -269,31 +219,6 @@ questions:
                       schema:
                         type: string
                         default: "/"
-                    - variable: failureThreshold
-                      label: "Failure Threshold"
-                      description: "Failure Threshold"
-                      schema:
-                        type: int
-                    - variable: initialDelaySeconds
-                      label: "Initial Delay Seconds"
-                      description: "Initial Delay Seconds"
-                      schema:
-                        type: int
-                    - variable: periodSeconds
-                      label: "Period Seconds"
-                      description: "Period Seconds"
-                      schema:
-                        type: int
-                    - variable: successThreshold
-                      label: "Success Threshold"
-                      description: "Success Threshold"
-                      schema:
-                        type: int
-                     - variable: timeoutSeconds
-                      label: "Timeout Seconds"
-                      description: "Timeout Seconds"
-                      schema:
-                        type: int
 
   - variable: service
     group: "Networking and Services"
